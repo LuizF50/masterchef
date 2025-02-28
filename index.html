@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grande Concurso de Culinária Intergaláctica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Grande Concurso de Culinária Intergaláctica</h1>
+        <div class="chef-inputs">
+            <div class="chef">
+                <h2>Chefe A</h2>
+                <input type="text" id="chefeA1" placeholder="Ingrediente 1">
+                <input type="text" id="chefeA2" placeholder="Ingrediente 2">
+                <input type="text" id="chefeA3" placeholder="Ingrediente 3">
+            </div>
+            <div class="chef">
+                <h2>Chefe B</h2>
+                <input type="text" id="chefeB1" placeholder="Ingrediente 1">
+                <input type="text" id="chefeB2" placeholder="Ingrediente 2">
+                <input type="text" id="chefeB3" placeholder="Ingrediente 3">
+            </div>
+        </div>
+        <button onclick="verificarIngredientes()">Verificar</button>
+        <div id="resultado"></div>
+        <div class="ingredientes-disponiveis">
+            <h3>Ingredientes Disponíveis:</h3>
+            <ul id="listaIngredientes"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

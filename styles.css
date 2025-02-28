@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    color: #fff; /* Ajuste a cor do texto para melhor contraste */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para melhor legibilidade */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* Cor do título */
+}
+
+.chef-inputs {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.chef {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo dos inputs */
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #e32636;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #e32636;
+}
+
+#resultado {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #e32636; /* Cor do resultado */
+}
+
+.ingredientes-disponiveis {
+    margin-top: 30px;
+}
+
+ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
+li {
+    color: #fff; /* Cor dos ingredientes disponíveis */
+}
